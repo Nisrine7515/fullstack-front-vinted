@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid rgb(221, 214, 214);
+  padding: 20px;
+  justify-content: space-between;
+}
+
+header img {
+  height: 30px;
+}
+
+header .tri {
+  height: 20px;
+  display: flex;
+}
+
+.left-header {
+  display: flex;
+  gap: 10px;
+}
+
+.left-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 633px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: rgb(243, 238, 238);
+}
+
+.buttons {
+  display: flex;
+}
